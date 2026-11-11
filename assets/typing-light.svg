@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="148" viewBox="0 0 760 148" role="img" aria-label="Vitali Klimko - Frontend Developer. React, TypeScript, AI-assisted engineering.">
+  <defs>
+    <linearGradient id="ink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="50%" stop-color="#C2410C"/>
+      <stop offset="100%" stop-color="#0F766E"/>
+    </linearGradient>
+    <clipPath id="c1"><rect class="r1" x="0" y="0" width="0" height="40"/></clipPath>
+    <clipPath id="c2"><rect class="r2" x="0" y="0" width="0" height="34"/></clipPath>
+    <clipPath id="c3"><rect class="r3" x="0" y="0" width="0" height="34"/></clipPath>
+    <style><![CDATA[
+      .name { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 30px; font-weight: 700; fill: url(#ink); }
+      .line { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 18px; font-weight: 500; fill: #374151; }
+      .caret {
+        fill: #C2410C;
+        animation: blink 1.05s steps(1) infinite;
+      }
+      .r1 { animation: reveal1 14s steps(22, end) infinite; }
+      .r2 { animation: reveal2 14s steps(36, end) infinite; }
+      .r3 { animation: reveal3 14s steps(42, end) infinite; }
+      @keyframes reveal1 {
+        0%, 3% { width: 0; }
+        16%, 28% { width: 280px; }
+        32%, 100% { width: 280px; }
+      }
+      @keyframes reveal2 {
+        0%, 32% { width: 0; }
+        48%, 60% { width: 430px; }
+        64%, 100% { width: 430px; }
+      }
+      @keyframes reveal3 {
+        0%, 64% { width: 0; }
+        82%, 94% { width: 500px; }
+        98%, 100% { width: 500px; }
+      }
+      @keyframes blink {
+        0%, 48% { opacity: 1; }
+        49%, 100% { opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .r1, .r2, .r3 { animation: none !important; width: 560px !important; }
+        .caret { display: none; }
+      }
+    ]]></style>
+  </defs>
+  <rect width="760" height="148" rx="18" fill="#FAFAF8"/>
+  <rect x="1" y="1" width="758" height="146" rx="17" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="28" cy="24" r="5" fill="#EF4444"/>
+  <circle cx="48" cy="24" r="5" fill="#F59E0B"/>
+  <circle cx="68" cy="24" r="5" fill="#10B981"/>
+  <text x="92" y="28" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">vitali-lab - zsh</text>
+
+  <g transform="translate(28 62)">
+    <text class="name" clip-path="url(#c1)">Vitali Klimko</text>
+  </g>
+  <g transform="translate(28 94)">
+    <text class="line" clip-path="url(#c2)">Frontend Developer | React | TypeScript</text>
+  </g>
+  <g transform="translate(28 122)">
+    <text class="line" clip-path="url(#c3)">UI | refactoring | AI-assisted delivery</text>
+  </g>
+  <rect class="caret" x="720" y="48" width="7" height="26" rx="1"/>
+</svg>
